@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 /* -------------- Global Classes ------------------ */
@@ -10,6 +10,23 @@
 :root {
     /* ------------ Colors -------------------- */
     --white: #ffffff;
+}
+
+a.del-btn{
+    text-decoration: none;
+    color: var(--white);
+    background: #ff2000;
+    padding: .3rem .5rem;
+    border-radius: .2rem;
+}
+
+.alert {
+    width: 80%;
+    margin: 1rem 2rem 0 2rem;
+    padding: 1.3rem;
+    color: var(--white);
+    font-size: 1.1rem;
+    border-radius: .8rem;
 }
 
 /* --------x----- Global Classes --------x--------- */
@@ -134,12 +151,12 @@ main.container{
 
 .container .right-content form input {
     width: 90%;
-    padding: .1rem 1rem;
+    padding:1rem;
     border-radius: .6rem;
     border: none;
     outline: none;
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: .8rem;
     color: #777777;
 }
 
@@ -148,10 +165,11 @@ main.container{
     change this to focus
 } */
 
-.container .right-content button {
+.container .right-content [type='submit'] {
     margin: .8rem 10%;
     padding: .6rem;
     width: 65%;
+    font-size: .8rem;
     border-radius: 2rem;
     outline: none;
     border: 1px solid #1a1a38;
@@ -160,7 +178,7 @@ main.container{
     transition: background .5s;
 }
 
-.container .right-content button:hover {
+.container .right-content [type='submit']:hover {
     background: #112523;
     border: none;
 }
@@ -169,6 +187,41 @@ main.container{
 .txt-type > .txt {
     border-right: 1px solid #f4f4f4;
 }
+
+/* -------------- Table Section ---------------- */
+
+.container .right-content .table {
+    margin-top: 3rem;
+}
+
+.container .table table {
+    width: 100%;
+    height: auto;
+    color: #1a1a38;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: .5rem;
+    background: var(--white);
+}
+
+.container table th, td {
+    padding: .6rem .3rem;
+}
+
+.container tbody tr:nth-child(2n){
+    background: #f4f4f4;
+}
+
+.container .alert-success{
+    background: #0fff50;
+}
+
+.container .alert-danger{
+    background: #ff2000;
+}
+
+/* -------x------ Table Section ------x--------- */
+
 /* ---------x------- Right Content --------x--------- */
 
 /* ---------x----- Main Content ----------x------------ */
