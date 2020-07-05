@@ -122,7 +122,7 @@ main.container{
     text-align: center;
     margin: 2rem 0;
     font-family: monospace;
-    font-size: 3rem;
+    font-size: 1.8rem;
 }
 
 .container .right-content form label{
@@ -163,6 +163,11 @@ main.container{
 .container .right-content button:hover {
     background: #112523;
     border: none;
+}
+
+/* TypeWriter Effect */
+.txt-type > .txt {
+    border-right: 1px solid #f4f4f4;
 }
 /* ---------x------- Right Content --------x--------- */
 
