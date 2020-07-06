@@ -113,17 +113,17 @@ class TypeWriter {
 }
 
 // Init on DOM load
-// document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', init);
 
-// // init app
-// function init() {
-//     const txtElement = document.querySelector('.txt-type');
-//     const words = JSON.parse(txtElement.getAttribute('data-words'));
-//     const wait = txtElement.getAttribute('data-wait');
+// init app
+function init() {
+    const txtElement = document.querySelector('.txt-type');
+    const words = JSON.parse(txtElement.getAttribute('data-words'));
+    const wait = txtElement.getAttribute('data-wait');
 
-//     // inin TypeWriter
-//     new TypeWriter(txtElement, words, wait);
-// }
+    // inin TypeWriter
+    new TypeWriter(txtElement, words, wait);
+}
 
 /* ------------ Form Field Section ------------------ */
 
