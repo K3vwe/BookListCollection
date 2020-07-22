@@ -1,4 +1,4 @@
-The Book App is a program is a BOOK MANAGAEMENT SYSTEM.
+The Book program is a BOOK MANAGAEMENT SYSTEM UI DESIGN.
 Its an application that holds information about books you've read in
 the past (the title, author, the isbn and also the url to the book resource 
 on google drive).
