@@ -34,7 +34,8 @@ a.del-btn{
 /* ----------------- Header Class ---------------------- */
 
 header {
-    background: #1a1a38;
+    /* background: #1a1a38; */
+    background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
     max-width: 100%;
     height: 10vh;
     display: flex;
@@ -80,7 +81,7 @@ main.container{
 .container .sidebar {
     height: 100vh;
     width: 100%;
-    background: #22223d;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .container .sidebar .profile-img {
@@ -127,9 +128,7 @@ main.container{
 /* ----------------- Right Content ------------------ */
 
 .container .right-content {
-    background: url('../assets/trees.jpg') no-repeat center;
-    background-size: cover;
-    height: 100vh;
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
     width: 100%;
     padding: 0 2rem;
 }
